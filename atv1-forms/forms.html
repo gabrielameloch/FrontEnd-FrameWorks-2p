@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Registration Form</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name: </label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email"> Email: </label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="address"> Address: </label>
+          <input type="text" id="address" name="address" required />
+        </div>
+        <div class="form-group">
+          <label for="course"> Course: </label>
+          <select id="course" name="course" required>
+            <option value="ciencia_computacao">Ciência da Computação</option>
+            <option value="engenharia_software">Engenharia de Software</option>
+            <option value="ads">Análide e Desenvolvimento de Sistemas</option>
+            <option value="sistemas_informacao">SIstemas de Informação</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <button type="submit">Registrar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
